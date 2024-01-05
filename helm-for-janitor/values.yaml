@@ -85,3 +85,6 @@ resources:
   requests:
     cpu: 5m
     memory: 100Mi
+
+nodeSelector:
+  kubernetes.io/os: linux

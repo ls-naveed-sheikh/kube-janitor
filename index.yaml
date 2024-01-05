@@ -2,11 +2,29 @@ apiVersion: v1
 entries:
   kube-janitor:
   - apiVersion: v1
-    appVersion: 23.7.0
-    created: "2024-01-05T12:45:36.60186+11:00"
+    appVersion: 23.7.1
+    created: "2024-01-05T13:36:06.970023+11:00"
     description: Clean up (delete) Kubernetes resources after a configured TTL (time
       to live)
-    digest: eb57dac5efa8e3d887f2c49f6b27263b4318ea2bd1ba8cb1a05494d31b59b40e
+    digest: c34436f78c5207f6f1abe82d49c33ae6dce03d6b5772324459c59ea876bd23c9
+    home: https://codeberg.org/hjacobs/kube-janitor
+    maintainers:
+    - email: henning@jacobs1.de
+      name: hjacobs
+    - email: me@mayppong.com
+      name: mayppong
+    name: kube-janitor
+    sources:
+    - https://codeberg.org/hjacobs/kube-janitor
+    urls:
+    - kube-janitor-0.3.2.tgz
+    version: 0.3.2
+  - apiVersion: v1
+    appVersion: 23.7.0
+    created: "2024-01-05T13:36:06.969482+11:00"
+    description: Clean up (delete) Kubernetes resources after a configured TTL (time
+      to live)
+    digest: 159a2a267fe4e95cdc8e893b8a6f26dab5597be9abf83f78b1cd78cfd1ec5fc3
     home: https://codeberg.org/hjacobs/kube-janitor
     maintainers:
     - email: henning@jacobs1.de
@@ -19,4 +37,4 @@ entries:
     urls:
     - kube-janitor-0.3.1.tgz
     version: 0.3.1
-generated: "2024-01-05T12:45:36.600822+11:00"
+generated: "2024-01-05T13:36:06.964174+11:00"
