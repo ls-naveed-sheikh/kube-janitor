@@ -1,6 +1,6 @@
 # kube-janitor
 
-This is helm release for kube-janitor
+This is a helm release for kube-janitor
 
 ## Howto
 
@@ -10,5 +10,5 @@ helm install myapp myrepo/kube-janitor
 ```
 OR
 ```bash
-helm install --repo https://ls-naveed-sheikh.github.io/kube-janitor myapp kube-janitor
+helm install myapp kube-janitor --repo https://ls-naveed-sheikh.github.io/kube-janitor
 ```
